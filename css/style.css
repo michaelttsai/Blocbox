@@ -49,6 +49,11 @@ html, body{
    .hero img {
      width: 350px;
    }
+   .testimonials li.stagger {
+  position: relative;
+  margin-bottom: 60px;
+  left:20px;
+}
  } 
   
 
@@ -264,6 +269,10 @@ html, body{
  .testimonials ul li {
    list-style-type: none;
  }
+.testimonials li.stagger {
+    position: relative;
+    top: 20px;
+}
  .testimonials blockquote {
    color:#FFFFFF;
    text-align: left;
