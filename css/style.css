@@ -426,6 +426,13 @@ html, body{
    list-style-type: none;
    margin-bottom: 15px;
  }
+ .left-nav .items .active{
+   padding: 2px 0 2px 8px;
+   border: 1px solid #ffffff;
+   border-radius: 4px;
+ }
+
+
  .left-nav .items ul li a {
    color:#FFFFFF;
    text-decoration: none;
