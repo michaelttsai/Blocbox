@@ -45,7 +45,10 @@ html, body{
 
  /* Media Query to refactor homepage hero */
 
- @media (min-width: 375px) {
+ @media (min-width: 375px){
+   .container {
+      width: 350px;
+   }
    .hero img {
      width: 350px;
    }
@@ -53,7 +56,13 @@ html, body{
   position: relative;
   margin-bottom: 60px;
   left:;
-}
+   }
+   footer .logo {
+   padding: 0;
+   }
+   footer one-third{
+   margin: 0;
+   }
  } 
   
 
@@ -142,6 +151,26 @@ html, body{
    display: block;
    margin:3em auto 0;
  }
+
+/* Call to Action */
+.call-to-action {
+   text-align:center;
+   display:block;
+   position: relative;
+   background: #34495E;
+   padding:20px 0 30px;
+}
+.call-to-action h2{
+   font-size: 36px;
+   font-weight: normal;
+   color: #FFFFFF;
+}
+
+.call-to-action p{
+   color: #ffffff;
+   margin: 10px 0 40px;
+}
+
 
 
  /* BUTTONS */
@@ -315,8 +344,6 @@ html, body{
   /* FOOTER */
  footer {
    background-color: #34495E;
-   background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
    color: #FFFFFF;
    height: 150px;
    position: relative;
@@ -347,17 +374,12 @@ html, body{
  }
   @media (min-width: 992px){
    footer{
-     background-color: #3498DB;
-     background-image: linear-gradient(to left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+     background-color: #34495E;
      height: 100px;
    }
    footer p, footer nav ul{
      padding: 2em 0;
      text-align: left;
-   }
-   footer .right-footer-block {
-     background-color: #3498DB;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
